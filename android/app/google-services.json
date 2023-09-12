@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043142294768",
+    "project_id": "trappra-chat-b51f7",
+    "storage_bucket": "trappra-chat-b51f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043142294768:android:4af5bfcc7af5191b0a5635",
+        "android_client_info": {
+          "package_name": "com.example.trappra_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043142294768-76s5uiljp86uusoehq5ui5noihetim58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXvO85tvQBSWBYcXq03VjbKLmkA9vGxMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043142294768-76s5uiljp86uusoehq5ui5noihetim58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

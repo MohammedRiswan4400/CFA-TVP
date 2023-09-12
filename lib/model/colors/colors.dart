@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+const kBlue = Colors.blue;
+const kgrey = Colors.grey;
+const kMCBlue = Color.fromARGB(255, 8, 0, 255);
+const kMCViolet = Color.fromARGB(255, 255, 0, 212);
+const kMCLightBlue = Color.fromRGBO(0, 255, 187, 1);
+const kred = Colors.redAccent;
+const kLightBlack = Color.fromARGB(112, 0, 0, 0);
+const kWhite = Colors.white;
+const kBlack = Colors.black;
+const kBlurBlack = Color.fromARGB(125, 0, 0, 0);
+const kTransparent = Colors.transparent;
+const kHint = Color.fromARGB(255, 44, 44, 44);
+const kField = Color.fromARGB(136, 220, 217, 217);
+const kField2 = Color.fromARGB(135, 180, 180, 180);
+const kHighlight = Color.fromARGB(255, 212, 211, 211);
+const kBackground = Color.fromARGB(255, 236, 236, 236);
+const kEditBannerFirst = Color.fromARGB(255, 255, 0, 0);
+const kEditBannerSecond = Color.fromARGB(255, 255, 170, 0);
+const kAmber = Colors.amberAccent;
