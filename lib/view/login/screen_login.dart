@@ -117,39 +117,6 @@ class _ScreenLoginState extends State<ScreenLogin> {
                                 const MyHsizedBox(
                                   h: 15,
                                 ),
-                                // TextFormField(
-                                //   // textInputAction: textInputAction,
-                                //   obscureText: !_isPasswordVisible,
-                                //   controller: passwordController,
-                                //   decoration: InputDecoration(
-                                //     suffixIcon: IconButton(
-                                //       icon: Icon(
-                                //         _isPasswordVisible
-                                //             ? Icons.visibility
-                                //             : Icons.visibility_off,
-                                //       ),
-                                //       onPressed: () {
-                                //         // Toggle the password visibility when the button is pressed
-                                //         setState(
-                                //           () {
-                                //             _isPasswordVisible =
-                                //                 !_isPasswordVisible;
-                                //           },
-                                //         );
-                                //       },
-                                //     ),
-                                //     hintText: "password",
-                                //     hintStyle: const TextStyle(
-                                //       color: kHint,
-                                //       fontWeight: FontWeight.w500,
-                                //     ),
-                                //     filled: true,
-                                //     fillColor: kField,
-                                //     border: OutlineInputBorder(
-                                //       borderRadius: BorderRadius.circular(5),
-                                //     ),
-                                //   ),
-                                // ),
                                 LoginPageTextFieled(
                                   hintText: 'Password',
                                   controller: passwordController,
@@ -229,6 +196,7 @@ class _ScreenLoginState extends State<ScreenLogin> {
       // print(e);
 
       log(e.code);
+      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           // width: double.negativeInfinity,

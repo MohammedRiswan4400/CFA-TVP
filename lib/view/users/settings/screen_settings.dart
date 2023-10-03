@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:trappra_chat/controller/goto_user.dart';
 import 'package:trappra_chat/view/login/screen_login.dart';
@@ -83,7 +82,7 @@ class ScreenSettings extends StatelessWidget {
                 GestureDetector(
                   onTap: () async {
                     Share.share(
-                      'Download CFA TVP from Playstore For Free.\nDownload Now On Playstore\nhttps://play.google.com/store/apps/details?id=com.brototype.cfa_tvp',
+                      'Download CFA TVP from Playstore For Free.\nDownload Now On Playstore\nhttps://play.google.com/store/apps/details?id=com.fusio.cfa_tvp',
                     );
                   },
                   child: const ListTile(
@@ -128,22 +127,6 @@ class ScreenSettings extends StatelessWidget {
                 const Divider(
                   thickness: 2,
                 ),
-                // GestureDetector(
-                //   onTap: () {
-                //     gotoLicenseScreen(context);
-                //   },
-                //   child: const ListTile(
-                //     leading: Icon(Icons.badge_outlined),
-                //     title: Text(
-                //       "License",
-                //       style:
-                //           TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
-                //     ),
-                //   ),
-                // ),
-                // const Divider(
-                //   thickness: 2,
-                // ),
                 GestureDetector(
                   onTap: () => showDialog(
                     context: context,
@@ -245,7 +228,7 @@ class ScreenSettings extends StatelessWidget {
                 ),
                 const Center(
                   child: Text(
-                    "1.0.0",
+                    "1.0.2",
                     style: TextStyle(fontSize: 13, fontWeight: FontWeight.w500),
                   ),
                 ),

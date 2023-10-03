@@ -8,7 +8,9 @@ import 'controller/provider/home_provider.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
@@ -23,10 +25,7 @@ class MyApp extends StatelessWidget {
       create: (context) => ImageChangingProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-
-        // navigatorKey: navigatorKey,
-        title: "Trappra App",
-        // theme: ThemeData.dark(),
+        title: "CFA TVP",
         builder: (_, child) => _UnFocus(child: child!),
         home: const ScreenSplash(),
       ),

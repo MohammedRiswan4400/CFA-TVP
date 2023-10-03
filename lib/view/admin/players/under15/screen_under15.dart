@@ -8,7 +8,6 @@ import 'package:trappra_chat/view/admin/players/add_students/add_students.dart';
 import '../../../../controller/goto_admin.dart';
 import '../../../../model/const/const.dart';
 import '../edit_student/edit_students.dart';
-import '../under18/screen_under18.dart';
 
 class ScreenUnder15 extends StatelessWidget {
   const ScreenUnder15({super.key});

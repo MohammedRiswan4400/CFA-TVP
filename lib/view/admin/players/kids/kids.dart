@@ -4,7 +4,6 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:lottie/lottie.dart';
 import 'package:trappra_chat/model/colors/colors.dart';
 import 'package:trappra_chat/view/admin/players/add_students/add_students.dart';
-import 'package:trappra_chat/view/admin/players/under18/screen_under18.dart';
 
 import '../../../../controller/goto_admin.dart';
 import '../../../../model/const/const.dart';
